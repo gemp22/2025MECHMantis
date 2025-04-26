@@ -776,7 +776,7 @@ public class MechbotTeleop_V1 extends OpMode{
                 cycleLeft=false;
                 if (!gamepad1.isRumbling()) {
                     gamepad1.runRumbleEffect(customLeftRumbleEffect);
-             +   }
+                }
             }
 
             cycleLeftPreVal = gamepad1.touchpad_finger_1;
